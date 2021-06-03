@@ -1,0 +1,86 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.lfwf-logo {
+	border: 2px solid #fc5f04;
+	height: 32px;
+	width: 35px;
+	display: inline-block;
+	line-height: 26px;
+    text-align: center;
+    border-radius: 25%;
+}
+.lfwf-logo i{
+    font-size: 15px;
+    color: #fc5f04;
+}
+
+.slider{
+    background: url(https://i.ibb.co/z6mQq2V/ia-200000012.jpg) rgba(0, 0, 0, 0.5) no-repeat center center;
+    background-size: cover;
+    padding: 300px 0;
+    background-blend-mode: overlay;
+}
+img{
+     max-width: 100%;
+    
+}
+.about{
+    margin: 50px;
+}
+
+.about-shadow {
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+	height: 260px;
+	overflow: hidden;
+    transition: all .4s;
+    transform: translateY(0);
+}
+.about-shadow:hover{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.3);
+    transform: translateY(-7px);
+}
+
+.about-shadow img{
+    border-radius: 5px 0 0 5px;
+    height: 110%;
+}
+/*  Abput Section  */
+.about-section{
+    background: #f7f9ff;
+}
+.about-text-left{
+    margin-top: 120px;
+}
+.about-text-left .lead {
+    font-size: 25px;
+    line-height: 2.7rem;
+}
+/*  Portolio Hover Css  */
+.portfolio-item{}
+.portfolio-item a{
+    position: relative;
+    display: block;
+}
+.portfolio-item a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.226);
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+
+.portfolio-item:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+
+.min-section-bg{
+    background-color: #f7f9ff;
+}
+
