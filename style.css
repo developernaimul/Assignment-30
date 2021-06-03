@@ -44,6 +44,7 @@ img{
 .about-shadow img{
     border-radius: 5px 0 0 5px;
     height: 260px;
+    width: 100%;
 }
 /*  Abput Section  */
 .about-section{
